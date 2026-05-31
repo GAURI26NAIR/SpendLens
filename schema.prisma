@@ -1,0 +1,173 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+enum PlanStatus {
+  HEALTHY
+  TIGHT
+  OVER_BUDGET
+}
+
+enum GoalPriority {
+  HIGH
+  MEDIUM
+  LOW
+}
+
+enum GoalFundingMode {
+  SEQUENTIAL
+  PARALLEL
+}
+
+enum GoalLifecycleStatus {
+  ACTIVE
+  PAUSED
+  COMPLETED
+  CANCELLED
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+enum SubscriptionTier {
+  FREE
+  PRO
+  ENTERPRISE
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  CANCELLED
+}
+
+model BudgetProfile {
+  id                   String        @id @default(cuid())
+  country              String
+  postalCode           String        @default("")
+  city                 String?
+  role                 UserRole      @default(USER)
+  monthlyIncome        Float
+  housingExpense       Float
+  foodExpense          Float
+  transportExpense     Float
+  utilitiesExpense     Float
+  healthcareExpense    Float
+  debtExpense          Float
+  entertainmentExpense Float
+  otherExpense         Float
+  createdAt            DateTime      @default(now())
+  updatedAt            DateTime      @updatedAt
+
+  goals        SavingsGoal[]
+  plans        BudgetPlan[]
+  groceryItems GroceryItem[]
+  subscriptions Subscription[]
+}
+
+model SavingsGoal {
+  id              String              @id @default(cuid())
+  budgetProfileId String
+  title           String
+  targetAmount    Float
+  startDate       DateTime            @default(now())
+  targetMonths    Int
+  monthlyRequired Float
+  priority        GoalPriority        @default(MEDIUM)
+  fundingMode     GoalFundingMode     @default(SEQUENTIAL)
+  status          GoalLifecycleStatus @default(ACTIVE)
+  createdAt       DateTime            @default(now())
+  updatedAt       DateTime            @updatedAt
+
+  budgetProfile BudgetProfile @relation(fields: [budgetProfileId], references: [id], onDelete: Cascade)
+}
+
+model BudgetPlan {
+  id                    String        @id @default(cuid())
+  budgetProfileId       String
+  totalExpenses         Float
+  disposableIncome      Float
+  recommendedNeeds      Float
+  recommendedWants      Float
+  recommendedSavings    Float
+  actualSavingsCapacity Float
+  status                PlanStatus
+  aiSummary             String?
+  createdAt             DateTime      @default(now())
+  updatedAt             DateTime      @updatedAt
+
+  budgetProfile BudgetProfile @relation(fields: [budgetProfileId], references: [id], onDelete: Cascade)
+}
+
+model Store {
+  id         String    @id @default(cuid())
+  name       String
+  chain      String
+  postalCode String
+  city       String
+  latitude   Float
+  longitude  Float
+  address    String
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  coupons Coupon[]
+
+  @@index([postalCode])
+  @@index([city])
+  @@unique([chain, postalCode, name])
+}
+
+model Coupon {
+  id          String    @id @default(cuid())
+  storeId     String
+  title       String
+  description String
+  category    String
+  discount    Float
+  validFrom   DateTime
+  validUntil  DateTime
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  store Store @relation(fields: [storeId], references: [id], onDelete: Cascade)
+
+  @@index([category])
+  @@index([validUntil])
+  @@unique([storeId, title, validFrom, validUntil])
+}
+
+model GroceryItem {
+  id                    String   @id @default(cuid())
+  budgetProfileId       String
+  name                  String
+  category              String
+  estimatedMonthlySpend Float
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  budgetProfile BudgetProfile @relation(fields: [budgetProfileId], references: [id], onDelete: Cascade)
+
+  @@index([budgetProfileId])
+  @@index([category])
+}
+
+model Subscription {
+  id              String             @id @default(cuid())
+  budgetProfileId String
+  tier            SubscriptionTier
+  status          SubscriptionStatus @default(ACTIVE)
+  priceMonthly    Float
+  startedAt       DateTime           @default(now())
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+
+  budgetProfile BudgetProfile @relation(fields: [budgetProfileId], references: [id], onDelete: Cascade)
+
+  @@index([budgetProfileId])
+}

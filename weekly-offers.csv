@@ -1,0 +1,99 @@
+StoreName,StoreChain,PostalCode,City,Latitude,Longitude,CouponTitle,Category,Discount,ValidFrom,ValidUntil
+Migros Zurich City,Migros,8000,Zurich,47.3769,8.5417,30% off Milk,Dairy,30,2026-05-24,2026-05-31
+Migros Zurich City,Migros,8000,Zurich,47.3769,8.5417,20% off Apples,Produce,20,2026-05-24,2026-05-31
+Migros Zurich City,Migros,8000,Zurich,47.3769,8.5417,25% off Yogurt,Dairy,25,2026-05-24,2026-05-31
+Migros Zurich City,Migros,8000,Zurich,47.3769,8.5417,15% off Tomatoes,Produce,15,2026-05-24,2026-05-31
+Migros Zurich City,Migros,8000,Zurich,47.3769,8.5417,20% off Pasta,Pantry,20,2026-05-24,2026-05-31
+Coop Zurich Center,Coop,8000,Zurich,47.3769,8.5417,25% off Bread,Bakery,25,2026-05-24,2026-05-31
+Coop Zurich Center,Coop,8000,Zurich,47.3769,8.5417,20% off Eggs,Dairy,20,2026-05-24,2026-05-31
+Coop Zurich Center,Coop,8000,Zurich,47.3769,8.5417,30% off Chicken Breast,Meat,30,2026-05-24,2026-05-31
+Coop Zurich Center,Coop,8000,Zurich,47.3769,8.5417,15% off Bananas,Produce,15,2026-05-24,2026-05-31
+Coop Zurich Center,Coop,8000,Zurich,47.3769,8.5417,25% off Rice,Pantry,25,2026-05-24,2026-05-31
+
+Migros Luzern Bahnhof,Migros,6003,Luzern,47.0502,8.3093,20% off Milk,Dairy,20,2026-05-24,2026-05-31
+Migros Luzern Bahnhof,Migros,6003,Luzern,47.0502,8.3093,25% off Apples,Produce,25,2026-05-24,2026-05-31
+Migros Luzern Bahnhof,Migros,6003,Luzern,47.0502,8.3093,30% off Chicken,Meat,30,2026-05-24,2026-05-31
+Migros Luzern Bahnhof,Migros,6003,Luzern,47.0502,8.3093,15% off Bread,Bakery,15,2026-05-24,2026-05-31
+Migros Luzern Bahnhof,Migros,6003,Luzern,47.0502,8.3093,20% off Yogurt,Dairy,20,2026-05-24,2026-05-31
+Coop Luzern City,Coop,6004,Luzern,47.0502,8.3093,25% off Eggs,Dairy,25,2026-05-24,2026-05-31
+Coop Luzern City,Coop,6004,Luzern,47.0502,8.3093,20% off Tomatoes,Produce,20,2026-05-24,2026-05-31
+Coop Luzern City,Coop,6004,Luzern,47.0502,8.3093,30% off Cheese,Dairy,30,2026-05-24,2026-05-31
+Coop Luzern City,Coop,6004,Luzern,47.0502,8.3093,15% off Pasta,Pantry,15,2026-05-24,2026-05-31
+Coop Luzern City,Coop,6004,Luzern,47.0502,8.3093,20% off Bananas,Produce,20,2026-05-24,2026-05-31
+
+Migros Zug Metalli,Migros,6300,Zug,47.1662,8.5155,20% off Milk,Dairy,20,2026-05-24,2026-05-31
+Migros Zug Metalli,Migros,6300,Zug,47.1662,8.5155,25% off Bread,Bakery,25,2026-05-24,2026-05-31
+Migros Zug Metalli,Migros,6300,Zug,47.1662,8.5155,30% off Chicken Breast,Meat,30,2026-05-24,2026-05-31
+Migros Zug Metalli,Migros,6300,Zug,47.1662,8.5155,15% off Potatoes,Produce,15,2026-05-24,2026-05-31
+Migros Zug Metalli,Migros,6300,Zug,47.1662,8.5155,20% off Coffee,Drinks,20,2026-05-24,2026-05-31
+Coop Zug Neustadt,Coop,6300,Zug,47.1662,8.5155,25% off Eggs,Dairy,25,2026-05-24,2026-05-31
+Coop Zug Neustadt,Coop,6300,Zug,47.1662,8.5155,20% off Apples,Produce,20,2026-05-24,2026-05-31
+Coop Zug Neustadt,Coop,6300,Zug,47.1662,8.5155,30% off Salmon,Fish,30,2026-05-24,2026-05-31
+Coop Zug Neustadt,Coop,6300,Zug,47.1662,8.5155,15% off Rice,Pantry,15,2026-05-24,2026-05-31
+Coop Zug Neustadt,Coop,6300,Zug,47.1662,8.5155,20% off Yogurt,Dairy,20,2026-05-24,2026-05-31
+
+Migros Rotkreuz,Migros,6343,Rotkreuz,47.1423,8.4316,20% off Milk,Dairy,20,2026-05-24,2026-05-31
+Migros Rotkreuz,Migros,6343,Rotkreuz,47.1423,8.4316,25% off Bread,Bakery,25,2026-05-24,2026-05-31
+Migros Rotkreuz,Migros,6343,Rotkreuz,47.1423,8.4316,15% off Onions,Produce,15,2026-05-24,2026-05-31
+Migros Rotkreuz,Migros,6343,Rotkreuz,47.1423,8.4316,20% off Tomatoes,Produce,20,2026-05-24,2026-05-31
+Migros Rotkreuz,Migros,6343,Rotkreuz,47.1423,8.4316,30% off Chicken,Meat,30,2026-05-24,2026-05-31
+Coop Rotkreuz,Coop,6343,Rotkreuz,47.1423,8.4316,25% off Eggs,Dairy,25,2026-05-24,2026-05-31
+Coop Rotkreuz,Coop,6343,Rotkreuz,47.1423,8.4316,20% off Bananas,Produce,20,2026-05-24,2026-05-31
+Coop Rotkreuz,Coop,6343,Rotkreuz,47.1423,8.4316,30% off Cheese,Dairy,30,2026-05-24,2026-05-31
+Coop Rotkreuz,Coop,6343,Rotkreuz,47.1423,8.4316,15% off Pasta,Pantry,15,2026-05-24,2026-05-31
+Coop Rotkreuz,Coop,6343,Rotkreuz,47.1423,8.4316,20% off Apples,Produce,20,2026-05-24,2026-05-31
+
+Migros Basel SBB,Migros,4051,Basel,47.5596,7.5886,20% off Milk,Dairy,20,2026-05-24,2026-05-31
+Migros Basel SBB,Migros,4051,Basel,47.5596,7.5886,25% off Yogurt,Dairy,25,2026-05-24,2026-05-31
+Migros Basel SBB,Migros,4051,Basel,47.5596,7.5886,15% off Apples,Produce,15,2026-05-24,2026-05-31
+Migros Basel SBB,Migros,4051,Basel,47.5596,7.5886,30% off Chicken,Meat,30,2026-05-24,2026-05-31
+Migros Basel SBB,Migros,4051,Basel,47.5596,7.5886,20% off Rice,Pantry,20,2026-05-24,2026-05-31
+Coop Basel City,Coop,4051,Basel,47.5596,7.5886,25% off Bread,Bakery,25,2026-05-24,2026-05-31
+Coop Basel City,Coop,4051,Basel,47.5596,7.5886,20% off Eggs,Dairy,20,2026-05-24,2026-05-31
+Coop Basel City,Coop,4051,Basel,47.5596,7.5886,30% off Fish Fillet,Fish,30,2026-05-24,2026-05-31
+Coop Basel City,Coop,4051,Basel,47.5596,7.5886,15% off Tomatoes,Produce,15,2026-05-24,2026-05-31
+Coop Basel City,Coop,4051,Basel,47.5596,7.5886,20% off Coffee,Drinks,20,2026-05-24,2026-05-31
+
+Migros Bern Bahnhof,Migros,3000,Bern,46.9480,7.4474,20% off Milk,Dairy,20,2026-05-24,2026-05-31
+Migros Bern Bahnhof,Migros,3000,Bern,46.9480,7.4474,25% off Bread,Bakery,25,2026-05-24,2026-05-31
+Migros Bern Bahnhof,Migros,3000,Bern,46.9480,7.4474,15% off Bananas,Produce,15,2026-05-24,2026-05-31
+Migros Bern Bahnhof,Migros,3000,Bern,46.9480,7.4474,30% off Chicken Breast,Meat,30,2026-05-24,2026-05-31
+Migros Bern Bahnhof,Migros,3000,Bern,46.9480,7.4474,20% off Pasta,Pantry,20,2026-05-24,2026-05-31
+Coop Bern City,Coop,3000,Bern,46.9480,7.4474,25% off Eggs,Dairy,25,2026-05-24,2026-05-31
+Coop Bern City,Coop,3000,Bern,46.9480,7.4474,20% off Apples,Produce,20,2026-05-24,2026-05-31
+Coop Bern City,Coop,3000,Bern,46.9480,7.4474,30% off Cheese,Dairy,30,2026-05-24,2026-05-31
+Coop Bern City,Coop,3000,Bern,46.9480,7.4474,15% off Rice,Pantry,15,2026-05-24,2026-05-31
+Coop Bern City,Coop,3000,Bern,46.9480,7.4474,20% off Yogurt,Dairy,20,2026-05-24,2026-05-31
+
+Migros Genève Cornavin,Migros,1201,Geneva,46.2044,6.1432,20% off Milk,Dairy,20,2026-05-24,2026-05-31
+Migros Genève Cornavin,Migros,1201,Geneva,46.2044,6.1432,25% off Apples,Produce,25,2026-05-24,2026-05-31
+Migros Genève Cornavin,Migros,1201,Geneva,46.2044,6.1432,30% off Chicken,Meat,30,2026-05-24,2026-05-31
+Migros Genève Cornavin,Migros,1201,Geneva,46.2044,6.1432,15% off Bread,Bakery,15,2026-05-24,2026-05-31
+Migros Genève Cornavin,Migros,1201,Geneva,46.2044,6.1432,20% off Coffee,Drinks,20,2026-05-24,2026-05-31
+Coop Genève Centre,Coop,1201,Geneva,46.2044,6.1432,25% off Eggs,Dairy,25,2026-05-24,2026-05-31
+Coop Genève Centre,Coop,1201,Geneva,46.2044,6.1432,20% off Tomatoes,Produce,20,2026-05-24,2026-05-31
+Coop Genève Centre,Coop,1201,Geneva,46.2044,6.1432,30% off Salmon,Fish,30,2026-05-24,2026-05-31
+Coop Genève Centre,Coop,1201,Geneva,46.2044,6.1432,15% off Pasta,Pantry,15,2026-05-24,2026-05-31
+Coop Genève Centre,Coop,1201,Geneva,46.2044,6.1432,20% off Yogurt,Dairy,20,2026-05-24,2026-05-31
+
+Migros Lausanne Flon,Migros,1003,Lausanne,46.5197,6.6323,20% off Milk,Dairy,20,2026-05-24,2026-05-31
+Migros Lausanne Flon,Migros,1003,Lausanne,46.5197,6.6323,25% off Bread,Bakery,25,2026-05-24,2026-05-31
+Migros Lausanne Flon,Migros,1003,Lausanne,46.5197,6.6323,15% off Potatoes,Produce,15,2026-05-24,2026-05-31
+Migros Lausanne Flon,Migros,1003,Lausanne,46.5197,6.6323,30% off Chicken Breast,Meat,30,2026-05-24,2026-05-31
+Migros Lausanne Flon,Migros,1003,Lausanne,46.5197,6.6323,20% off Rice,Pantry,20,2026-05-24,2026-05-31
+Coop Lausanne City,Coop,1003,Lausanne,46.5197,6.6323,25% off Eggs,Dairy,25,2026-05-24,2026-05-31
+Coop Lausanne City,Coop,1003,Lausanne,46.5197,6.6323,20% off Apples,Produce,20,2026-05-24,2026-05-31
+Coop Lausanne City,Coop,1003,Lausanne,46.5197,6.6323,30% off Cheese,Dairy,30,2026-05-24,2026-05-31
+Coop Lausanne City,Coop,1003,Lausanne,46.5197,6.6323,15% off Bananas,Produce,15,2026-05-24,2026-05-31
+Coop Lausanne City,Coop,1003,Lausanne,46.5197,6.6323,20% off Pasta,Pantry,20,2026-05-24,2026-05-31
+
+Migros Winterthur Neuwiesen,Migros,8400,Winterthur,47.4988,8.7237,20% off Milk,Dairy,20,2026-05-24,2026-05-31
+Migros Winterthur Neuwiesen,Migros,8400,Winterthur,47.4988,8.7237,25% off Bread,Bakery,25,2026-05-24,2026-05-31
+Migros Winterthur Neuwiesen,Migros,8400,Winterthur,47.4988,8.7237,15% off Tomatoes,Produce,15,2026-05-24,2026-05-31
+Migros Winterthur Neuwiesen,Migros,8400,Winterthur,47.4988,8.7237,30% off Chicken,Meat,30,2026-05-24,2026-05-31
+Migros Winterthur Neuwiesen,Migros,8400,Winterthur,47.4988,8.7237,20% off Yogurt,Dairy,20,2026-05-24,2026-05-31
+Coop Winterthur City,Coop,8400,Winterthur,47.4988,8.7237,25% off Eggs,Dairy,25,2026-05-24,2026-05-31
+Coop Winterthur City,Coop,8400,Winterthur,47.4988,8.7237,20% off Apples,Produce,20,2026-05-24,2026-05-31
+Coop Winterthur City,Coop,8400,Winterthur,47.4988,8.7237,30% off Fish Fillet,Fish,30,2026-05-24,2026-05-31
+Coop Winterthur City,Coop,8400,Winterthur,47.4988,8.7237,15% off Rice,Pantry,15,2026-05-24,2026-05-31
+Coop Winterthur City,Coop,8400,Winterthur,47.4988,8.7237,20% off Coffee,Drinks,20,2026-05-24,2026-05-31
