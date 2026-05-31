@@ -1,0 +1,2 @@
+# SpendLens
+Smart Budget Tracker
